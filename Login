@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Login or Sign UP!
+      </title>   
+    </head>
+    <body>
+        <a href="./MainMenu.html">MainMenu</a>
+        <h1>Login to start your inevitible journey!</h1>
+        <label for="username">Choose a nickname</label>
+        <br>
+        <input type="text" name="username" id="username">
+    
+    
+
+    
+
+</html>
