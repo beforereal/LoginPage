@@ -14,7 +14,7 @@
        <br>
        <input type="text" name="username" id="username">
        <label for="password">Enter your password</label>
-       <input type="text" name="password" id="password">
+       <input type="password" name="password" id="password">
       </div>
 
       <div id="SignUp">
@@ -25,7 +25,9 @@
        <br>
        <input type="text" name="sign-nickname" id="sign-nickname">
        <br>
-
+       <label for="sign-password">Enter your password.It should be at least 8 character.</label>
+       <br>
+       <input type="password" id="sign-password" name="sign-password">
        <label for="name">Enter your name</label>
        <br>
        <input type="text" name="name" id="name">
