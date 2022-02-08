@@ -5,14 +5,46 @@
       </title>   
     </head>
     <body>
-        <a href="./MainMenu.html">MainMenu</a>
-        <h1>Login to start your inevitible journey!</h1>
-        <label for="username">Choose a nickname</label>
-        <br>
-        <input type="text" name="username" id="username">
-    
-    
+      <div id="Top">
+       <a href="./MainMenu.html">MainMenu</a>
+      </div>
+      <div id="Login">
+       <h1>Login to start your inevitible journey!</h1>
+       <label for="username">Enter your nickname</label>
+       <br>
+       <input type="text" name="username" id="username">
+       <label for="password">Enter your password</label>
+       <input type="text" name="password" id="password">
+      </div>
 
-    
+      <div id="SignUp">
+
+       <h3>Do you need a new account?</h3>
+       
+       <label for="sign-nickname">Choose a nickname</label> 
+       <br>
+       <input type="text" name="sign-nickname" id="sign-nickname">
+       <br>
+
+       <label for="name">Enter your name</label>
+       <br>
+       <input type="text" name="name" id="name">
+       <br>
+       <label for="surname">Enter your surname</label>
+       <br>
+       <input type="text" name="surname" id="surname">
+       <br>
+       <label for="mail-adress">Enter your mail adress</label>
+       <br>
+       <input type="text" name="mail-adress" id="mail-adress">
+       <br> 
+       
+       <label for="suggestion">Who suggested this website? Why did you choose to use it</label>
+       <br>
+       <input type="text" name="suggestion" id="suggestion">
+
+      </div>
+
+    </body>  
 
 </html>
