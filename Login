@@ -15,7 +15,9 @@
        <input type="text" name="username" id="username">
        <label for="password">Enter your password</label>
        <input type="password" name="password" id="password">
+       <hr>
       </div>
+      
 
       <div id="SignUp">
 
@@ -40,10 +42,29 @@
        <br>
        <input type="text" name="mail-adress" id="mail-adress">
        <br> 
+      </div>
+
+      <div id="Evaluation">
        
-       <label for="suggestion">Who suggested this website? Why did you choose to use it</label>
-       <br>
+       <label for="rating">Rate our website</label><br>
+       <input type="range" id="rating" name="rating" min="1" max="5" step="1"><br>
+       
+       <label for="suggestion">Who suggested this website? Why did you choose to use it?Could you explain please!</label>
+       <br><br>
+       <label for="friend">Friends</label>
+       <input id="friend" name="suggestion" type="checkbox" value="friend"><br>
+       <label for="advertisement">Advertisement</label>
+       <input id="advertisement" name="suggestion" type="checkbox" value="advertisement"><br>
+       <label for="searching-engine">Searching-Engine</label>
+       <input id="searching-engine" name="suggestion" type="checkbox" value="searching-engine">
+    
+
+
+       
        <input type="text" name="suggestion" id="suggestion">
+
+      </div>
+       
 
       </div>
 
